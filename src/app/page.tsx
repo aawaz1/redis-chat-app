@@ -2,7 +2,6 @@ import ChatLayout from "@/components/chat/ChatLayout";
 import PreferencesTab from "@/components/PreferencesTab";
 import { cookies } from "next/headers";
 import {redis} from '@/lib/db'
-import Image from "next/image";
 import { getKindeServerSession } from "@kinde-oss/kinde-auth-nextjs/server";
 import { redirect } from "next/navigation";
 import { User } from "@/db/dummy";
